@@ -1,0 +1,29 @@
+body {
+    background: #43cea2;
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
+    background: linear-gradient(to right, #185a9d, #43cea2); 
+    font-family: 'Nunito', sans-serif;
+}
+
+h1{
+    font-weight: bolder;
+  
+}
+
+.card, .alert, input{
+    background: linear-gradient(to right,  #7890a8, #81b1a1); 
+}
+
+.form-select{
+    background: linear-gradient(to right, #7890a8, #81b1a1); 
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.user-text{
+    font-size: 25px;
+}
+
