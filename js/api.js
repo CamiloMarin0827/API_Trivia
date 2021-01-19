@@ -24,6 +24,8 @@ function printQuestions(data) {
     question_correctC.push(...question_correct);
 
     const containerQuestions = document.getElementById("container-questions");
+    const chooseAnswers=document.getElementById("choose-answers");
+    chooseAnswers.innerHTML=`<h6> Please, Choose the Correct Answers </h6>`;
 
     for (let i = 0; i < data.results.length; i++) {
 
@@ -35,6 +37,8 @@ function printQuestions(data) {
             // incorrectAnswer = data.results[i].incorrect_answers[0];
 
             // arrAnswers = [correctAnswer, incorrectAnswer];
+
+            
 
             containerQuestions.innerHTML += `<div class="row d-flex justify-content-center align-items-center">
                                                 <div class="col-md-6">
@@ -82,7 +86,6 @@ function printQuestions(data) {
     containerQuestions.innerHTML += `<div class="text-center ">
                                         <button id="buttonC" class=" mt-4 mb-4 btn btn-success col-md-4 button-add form-check">Enviar respuestas <i class="fas fa-paper-plane"></i></button>
                                     </div>`
-
 
 }
 
@@ -136,7 +139,6 @@ function printCategories(categories) {
         categoriesContainer.innerHTML += `<option value="${category.id}">${category.name}</option>`;
     })
 }
-
 
 getCategories();
 
