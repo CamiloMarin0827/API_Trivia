@@ -93,6 +93,8 @@ function score() {
 
     const selec = document.getElementById("select-type").value;
     const form2 = document.getElementById("container-questions");
+    const chooseAnswers=document.getElementById("choose-answers");
+    chooseAnswers.innerHTML="";
     let cont = 0;
 
     console.log(question_correctC)
