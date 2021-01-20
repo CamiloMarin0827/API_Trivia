@@ -84,7 +84,7 @@ function printQuestions(data) {
 
     }
     containerQuestions.innerHTML += `<div class="text-center ">
-                                        <button id="buttonC" class=" mt-4 mb-4 btn btn-success col-md-4 button-add form-check">Enviar respuestas <i class="fas fa-paper-plane"></i></button>
+                                        <button id="buttonC" class=" mt-4 mb-4 btn btn-success col-md-4 button-add form-check">Send Answers <i class="fas fa-paper-plane"></i></button>
                                     </div>`
 
 }
